@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Redux</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="container mx-auto">
+        <div class="Wrapper py-4 my-8">
+          <h1 class="text-8xl font-bold text-center" id="counter">0</h1>
+          <div class="flex my-2 items-center justify-center">
+            <button
+              id="btnInc"
+              class="bg-blue-400 hover:bg-blue-500 text-white font-semibold rounded hover:shadow px-4 py-2 text-xl mx-2"
+            >
+              Increment
+            </button>
+            <button
+              id="btnDec"
+              class="bg-red-400 hover:bg-red-500 text-white font-semibold rounded hover:shadow px-4 py-2 text-xl mx-2"
+            >
+              Decrement
+            </button>
+            <button
+              id="btnReset"
+              class="bg-gray-400 hover:bg-gray-500 text-white font-semibold rounded hover:shadow px-4 py-2 text-xl mx-2"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
